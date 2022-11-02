@@ -2,4 +2,13 @@
     <string name="app_name">Nubank</string>
 
     <string name="txt_username">Hi, Dalton</string>
+
+
+
+    <string name="img_person">Person image</string>
+    <string name="img_eye">Eye Image</string>
+    <string name="img_question">Question mark Image</string>
+    <string name="img_person_add">Add Person Image</string>
+
+
 </resources>

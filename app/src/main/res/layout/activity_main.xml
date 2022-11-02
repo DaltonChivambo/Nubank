@@ -31,7 +31,7 @@
             app:layout_constraintStart_toStartOf="@id/container_circle"
             app:layout_constraintEnd_toEndOf="@id/container_circle"
             app:layout_constraintBottom_toBottomOf="@id/container_circle"
-            />
+            android:contentDescription="@string/img_person" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
             android:layout_marginTop="40dp"
             app:layout_constraintStart_toEndOf="@id/container_circle"
             app:layout_constraintTop_toTopOf="parent"
-            />
+            android:contentDescription="@string/img_eye" />
 
         <ImageView
             android:id="@+id/icQuestion"
@@ -68,7 +68,7 @@
             app:layout_constraintStart_toEndOf="@id/icEye"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/icPersonAdd"
-            />
+            android:contentDescription="@string/img_question" />
 
         <ImageView
             android:id="@+id/icPersonAdd"
@@ -80,7 +80,7 @@
             app:layout_constraintStart_toEndOf="@+id/icQuestion"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            />
+            android:contentDescription="@string/img_person_add" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
