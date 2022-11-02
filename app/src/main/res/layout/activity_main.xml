@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:background="@color/purple">
 
-
         <View
             android:id="@+id/container_circle"
             android:layout_width="40dp"
@@ -82,7 +81,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
