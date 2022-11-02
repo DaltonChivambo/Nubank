@@ -14,10 +14,37 @@
 
 
         <View
+            android:id="@+id/container_circle"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
             android:background="@drawable/container_circle"
-            app:layout_constraintBaseline_toTopOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_user"
+            app:layout_constraintTop_toTopOf="@id/container_circle"
+            app:layout_constraintStart_toStartOf="@id/container_circle"
+            app:layout_constraintEnd_toEndOf="@id/container_circle"
+            app:layout_constraintBottom_toBottomOf="@id/container_circle"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_username"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintTop_toBottomOf="@id/container_circle"
+            app:layout_constraintStart_toStartOf="parent"
             />
 
 
