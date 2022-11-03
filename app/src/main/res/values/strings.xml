@@ -3,6 +3,7 @@
 
     <string name="txt_username">Hi, Dalton</string>
     <string name="txt_balance_account">Account \n\n MZN 5420,50</string>
+    <string name="txt_my_cards">My Cards</string>
 
 
 
@@ -11,6 +12,8 @@
     <string name="img_eye">Eye Image</string>
     <string name="img_question">Question mark Image</string>
     <string name="img_person_add">Add Person Image</string>
+    <string name="img_recycler">Recycler View Images</string>
+    <string name="img_cards">Card Image</string>
 
 
 </resources>

@@ -27,13 +27,12 @@
         app:layout_constraintStart_toStartOf="@id/content_circle"
         app:layout_constraintEnd_toEndOf="@id/content_circle"
         app:layout_constraintBottom_toBottomOf="@id/content_circle"
-        />
+        android:contentDescription="@string/img_recycler" />
 
     <TextView
         android:id="@+id/txtPaymentTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="area do pix"
         android:textSize="18sp"
         android:textStyle="bold"
         android:gravity="center"
