@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Nubank</string>
 
-    <string name="txt_username">Hi, Dalton</string>
-    <string name="txt_balance_account">Account \n\n MZN 5420,50</string>
+    <string name="txt_username">Hi, Sky!!</string>
+    <string name="txt_balance_account">Account\n\nMZN 5420,50</string>
     <string name="txt_my_cards">My Cards</string>
-
-
+    <string name="txt_credit_card">Credit Card</string>
+    <string name="txt_current_invoice">Current Invoice</string>
 
 
     <string name="img_person">Person image</string>
