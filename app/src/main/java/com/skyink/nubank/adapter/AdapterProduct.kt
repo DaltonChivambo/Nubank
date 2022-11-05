@@ -18,12 +18,10 @@ class AdapterProduct(private val context: Context, private val productList: Muta
     }
 
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        holder.txtInformation.text = productList[position].text
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
-    }
+    override fun getItemCount() = productList.size
 
     inner class ProductViewHolder(binding: ProductItemBinding): RecyclerView.ViewHolder(binding.root) {
         val txtInformation = binding.txtInformation
